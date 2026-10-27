@@ -75,7 +75,9 @@ python .\src\aurora_tipe\averaged_ionization_simulation.py --altitude 250 --ener
 
 ## Results
 
-The main script generates an ionization-rate profile against altitude and saves the figure to `figures/ionization_profile.png`. It uses a logarithmic x-axis when the profile contains positive values and a linear x-axis for an all-zero profile. It does not save numerical data files.
+The main script generates an ionization-rate profile against altitude and saves the figure to `figures/ionization_profile.png`. It uses a logarithmic x-axis when the profile contains positive values and a linear x-axis for an all-zero profile.
+
+![Profil du taux d'ionisation](figures/ionization_profile.png)
 
 ## Limitations
 
